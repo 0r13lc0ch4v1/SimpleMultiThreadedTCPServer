@@ -11,10 +11,10 @@ This is a vary basic multi-threaded tcp server written in c++.
     int main()
     {
     	TCPServer tcpServer{};
-    	tcpServer.Run();
+	tcpServer.Run();
 	
-    	std::puts("Press enter to close server");
-    	std::getc(stdin);
+	std::puts("Press enter to close server");
+	std::getc(stdin);
 
-	    return 0;
+	return 0;
     }
